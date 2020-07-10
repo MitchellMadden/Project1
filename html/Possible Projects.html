@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <head>
+        <script src="../js/Possible Projects.js"></script> 
+        <audio id='pacSound' src='../music/IntroPac.mp3' preload="auto" autoplay></audio>
+        <audio id="gameOver" src="../music/gameOver.wav"  preload="auto"></audio>
+        <audio id="fruit" src="../music/Fruit.mp3" preload="auto"></audio>
+        <link rel="stylesheet" type="text/css" href="../styles/Possible Projects.css" preload="auto">
+        <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+    </head>
+    <body onload="autoPlaySound()">
+        <div class='pacMan' onmouseover="PlayPacSound('pacSound')">
+            <img id="pacLeft" src="../images/pacLeft.gif"></image>
+            <img id="pacRight" src="../images/pacRight.gif"></image>
+        </div>
+        <h2 id="hm-pg" onmouseover="PlayGameOverSound('gameOver')"><a href="../html/Raspberry Pi.html">Back To Home</a></h2>
+        <video id="piProjects" width="200px" height="110px" onmouseover="PlayFruitSound('fruitSound');dataset.over=true;controls=true" onmouseout="dataset.over=true;controls=false"> 
+            <source src="../videos/piProjects.mp4" type="video/mp4">
+        </video>
+    </body>
+
+</html>
