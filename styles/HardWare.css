@@ -1,0 +1,13 @@
+.hardWare {
+    width: 200px;
+    height: 200px;
+}
+
+.hardWare:hover {
+    width: 20%;
+    height: 20%;
+}
+
+#mount:hover {
+    width: 15%;
+}

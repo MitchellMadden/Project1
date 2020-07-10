@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <div id=fullPage>
+        <head>
+            <title>Raspberry Pi</title>
+            <link rel="stylesheet" type="text/css" href="../styles/Raspberry Pi.css">  
+            <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../styles/HardWare.css">
+            <audio id="shortCircuit" src="../music/shortCircuit.mp3"  preload="auto"></audio>
+            <audio id="transformSound" src="../music/transformingSound.mp3"  preload="auto"></audio>
+            <audio id="electricBoard" src="../music/electricBoard.mp3"  preload="auto" loop></audio>
+            <audio id="boing" src="../music/boing.wav"  preload="auto"></audio>
+        </head>
+        <nav>
+            <div id='mergeImages'>
+                <div id="elecOnMouseOver" onmouseover="PlayElectricSound('electricBoard')" 
+                onmouseout="StopSound('electricBoard')">
+                    <img id='Rasp-pi' src='https://socialcompare.com/u/1906/raspberry-pi-4_1ab68d4ed26ceabb30086f7027af7e80.png' alt='Raspberry Pi Motherboard' />
+                </div>
+                <img id='circuit' src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSD2MomuXmKIAdovsn2kglQl3GbWWL91paxyjeanfxkvUBjP5AX&usqp=CAU' alt='Circuit'>
+                <div id='leftColumn'>
+                    <iframe id="lightningLeft" src="https://giphy.com/embed/MdRhk2q38kcNlTWmRq" width="360" height="415" frameBorder="0"></iframe>
+                </div>
+                <div id='rightColumn'>
+                    <iframe id="lightningRight" src="https://giphy.com/embed/MdRhk2q38kcNlTWmRq" width="360" height="415" frameBorder="0"></iframe>
+                </div> 
+            </div>  
+                 
+            <ul onmouseover="PlayBoingSound('boing')" 
+            onmouseout="StopSound('boing')">
+                <li id="hm-pg"><a href='Raspberry Pi.html'>Home Page</a></li>            
+                <li id="po-proj"><a href='Possible Projects.html'>Possible Projects</a></li>
+                <li id="op-sys"><a href='Operating System.html'>Operating Systems</a></li>
+            </ul>  
+
+        </nav>
+
+        <body>
+            <div id="elecCpu">
+                <iframe id="elec" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="420" height="120" frameBorder="0"></iframe>
+                <h6 id="cpu" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">Central Processing Unit</h6>
+                <audio id="shortCircuit" src="../music/ShortCircuit.mp3" ></audio>
+            </div>
+
+            <div id="elecUSB">
+                <iframe id="elec2" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="420" height="120" frameBorder="0"></iframe>
+                <h6 id="usb1" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">Universal Serial Bus</h6>
+                <audio id="shortCircuit" src="../music/ShortCircuit.mp3" ></audio>
+
+                <iframe id="elec3" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="420" height="120" frameBorder="0"></iframe>
+                <h6 id="usb2" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">Universal Serial Bus</h6>
+                <audio id="shortCircuit" src="../music/ShortCircuit.mp3" ></audio>
+            </div>
+
+            <div id="elecEport">
+                <iframe id="elec4" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="520" height="145" frameBorder="0"></iframe>
+                <h6 id="eport" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">Ethernet Port</h6>
+                <audio id="shortCircuit" src="../music/ShortCircuit.mp3" ></audio>
+            </div>
+
+            <div id="elecHdmi">
+                <iframe id="elec5" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="370" height="170" frameBorder="0"></iframe>
+                <h6 id="hdmi1" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">HDMI Port</h6>
+                <audio id="shortCircuit" src="../music/ShortCircuit.mp3" ></audio>
+
+                <iframe id="elec6" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="370" height="170" frameBorder="0"></iframe>
+                <h6 id="hdmi2" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">HDMI Port</h6>
+                <audio id="shortCircuit" src="../music/ShortCircuit.mp3" ></audio>    
+            </div>
+
+            <div id="elecMicro">
+                <iframe id="elec7" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="420" height="75" frameBorder="0"></iframe>
+                <h6 id="micro" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">Micro USB</h6>
+                <audio id="shortCircuit" src="../music/ShortCircuit.mp3" ></audio>
+            </div>
+
+            <div id="elecAudioJack">
+                <iframe id="elec8" src="https://giphy.com/embed/U6dc6uTGaLJ1bnnQFe" width="370" height="370" frameBorder="0" ></iframe>
+                <h6 id="audioJack" onmouseover="PlayStaticSound('shortCircuit')" 
+                onmouseout="StopSound('shortCircuit')">Electric Audio Jack</h6>
+            </div>
+
+            <video id="transformers" width="120" height="65" autoplay controls onmouseover="PlayTransformSound('transformSound')" 
+            onmouseout="StopSound('transformSound')">
+                <source src="../videos/transformersMusic.mp4" type="video/mp4">
+            </video>
+            <h2>Hardware</h2>
+            <hr>
+            <p>The Raspberry Pi hardware has evolved through several versions that feature variations in the type of the central processing unit, amount of memory capacity and networking support.
+                
+            </p>
+            <img id="keyBoard" class="hardWare" src="../images/keyBoard.jpg" alt="Key Board" />
+            <img id="mouse" class="hardWare" src="../images/mouse.png" alt="mouse" />
+            <img id="screen" class="hardWare" src="../images/screen.png" alt="screen" />
+            <br>
+            <img id="gameBoy" class="hardWare" src="../images/gameBoy.jpeg" alt="Game Boy" />
+            <img id="snes" class="hardWare" src="../images/snes.png" alt="Snes" />
+            <img id="mount" class="hardWare" src="../images/mount.png" alt="mount" />
+            
+        </body>
+        <script src="../js/HardWare.js" > </script>
+    </div>
+</html>
