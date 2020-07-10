@@ -406,3 +406,461 @@ h2 {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
 }
+
+#gridArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 40px;
+    justify-items: center;
+}
+
+#ubuntu {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea1 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#ubuntuCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#ubuntuCard:hover {
+    transform: rotateY(180deg);
+}
+
+#ubuntuFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#ubuntuBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+h6 {
+    top: 0px;
+    font-family: 'finger paint';
+}
+
+#osmc {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea2 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+
+}
+
+#osmcCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#osmcCard:hover {
+    transform: rotateY(180deg);
+}
+
+#osmcFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#osmcBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+h6 {
+    top: 0px;
+    font-family: 'finger paint';
+}
+
+#libre {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea3 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#libreCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#libreCard:hover {
+    transform: rotateY(180deg);
+}
+
+#libreFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#libreBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+
+#mozillaWT {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea4 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#mozillaCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#mozillaCard:hover {
+    transform: rotateY(180deg);
+}
+
+#mozillaFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#mozillaBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+
+#piNET {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea5 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#piNETCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#piNETCard:hover {
+    transform: rotateY(180deg);
+}
+
+#piNETFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#piNETBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#riscOS {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea6 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#riscOSCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#riscOSCard:hover {
+    transform: rotateY(180deg);
+}
+
+#riscOSFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#riscOSBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#ichigoJ {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea7 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#ichigoJCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#ichigoJCard:hover {
+    transform: rotateY(180deg);
+}
+
+#ichigoJFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#ichigoJBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#weatherS {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea8 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#weatherSCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#weatherSCard:hover {
+    transform: rotateY(180deg);
+}
+
+#weatherSFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#weatherSBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#noobs {
+    width: 150px;
+    height: 150px;
+}
+
+#flipArea9 {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+
+#noobsCard {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    perspective: 600px;
+}
+
+#noobsCard:hover {
+    transform: rotateY(180deg);
+}
+
+#noobsFront {
+    display: inline;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+#noobsBack {
+    display: inline;
+    background: rgb(214, 231, 135) ;
+    transform: rotateY(-180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.cardText {
+    font-size: 14px;
+}
+
+#Rasp-pi {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+#circuit {
+    width: 100%;
+    height: 75px;
+    top: 0;
+}
+
+#mergeImages {
+    font-size: 0;
+    position: fixed;
+    position: relative;
+}
+
+#leftColumn {
+    background-color: #cfc ;
+    display: flex;
+    border: 1px solid green ;
+    border-right: 20px solid green;
+    float: left;
+    height: 100%;
+    width: 20%;
+    padding-bottom: 55%; 
+    background: linear-gradient(90deg, rgb(255, 204, 204), yellow, green);
+    margin-right: 20px;
+}
+
+#rightColumn {
+    background-color: #cfc ;
+    display: flex;
+    border: 1px solid green ;
+    border-left: 20px solid green;
+    float: right;
+    height: 100%;
+    width: 20%;
+    padding-bottom: 55%;
+    background: linear-gradient(90deg, green, yellow, rgb(255, 204, 204));
+    margin-left: 20px;
+    position: relative;
+}
