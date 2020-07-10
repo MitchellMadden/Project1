@@ -1,0 +1,408 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    max-height: min-content;
+}
+
+body {
+    margin: 0px;
+}
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 360px;
+    left: 300px;
+}
+
+li {
+    font-weight: bold;
+    font-family: 'Finger Paint';
+    font-size: 150%;
+    padding-left: 20px;
+}
+
+#Lorem-Ipsum {
+    font-size: 85%;
+}
+
+@media only screen and (max-width: 1150px) {
+    li {
+        font-weight: bold;
+        font-family: 'Finger Paint';
+        font-size: 100%;
+        padding-left: 20px;
+        }
+
+    #elecMicro {
+        display: none;
+        }  
+
+    #elecHdmi {
+        display: none;
+        }
+
+    #elecEport {
+        display: none;
+        }
+
+    #elecUSB {
+        display: none;
+        }
+
+    #elecCpu {
+        display: none;
+        }  
+        
+    iframe {
+        display: none;
+        }
+
+    #transformers {
+        display: none;
+        }
+
+    .flipImages {
+        max-width: 20%;
+        max-height: 20%;
+        }
+
+    #Lorem-Ipsum {
+        font-size: 50%;
+    }
+}   
+
+@media only screen and (max-width: 900px) {
+    li {
+        font-weight: bold;
+        font-family: 'Finger Paint';
+        font-size: 70%;
+        padding-left: 20px;
+        }
+
+     ul {
+        display: flex;
+        flex-shrink: inherit;
+        left: 150px;
+        }
+        
+    .flipImages {
+        display: none;
+    } 
+
+    #Lorem-Ipsum {
+        font-size: 30%;
+    }       
+}   
+
+@media only screen and (max-width: 600px) {
+    li {
+        font-weight: bold;
+        font-family: 'Finger Paint';
+        font-size: 20%;
+        }
+
+    ul {
+        padding: 30px 0px 90px 0px;
+        display: flex;
+        flex-shrink: inherit;
+        left: 80px;
+        }
+
+    body {
+        font-size: 15%;
+        }
+
+    .flipImages {
+        display: none;
+        } 
+ 
+    #Lorem-Ipsum {
+        font-size: 10%;
+        }         
+}
+
+
+li:hover { 
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+#transformers {
+    position: absolute;
+    top: 55px;
+    left: 101px;
+}
+
+#lightningLeft {
+    position: absolute;
+    top: 170px;
+    left: -20px;
+    pointer-events: none;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+#lightningRight {
+    position: absolute;
+    top: -255px;
+    right: -20px;
+    pointer-events: none;
+    transform: rotate(90deg);
+    opacity: 0;
+}
+
+#elec {
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    pointer-events: none;
+}
+
+#elec2 {
+    position: absolute;
+    top: 120px;
+    right: -70px;
+    pointer-events: none; 
+}
+
+#elec3 {
+    position: absolute;
+    top: 220px;
+    right: -70px;
+    pointer-events: none; 
+}
+
+#elec4 {
+    position: absolute;
+    top: -2px;
+    right: -110px;
+    pointer-events: none; 
+}
+
+#elec5 {
+    position: absolute;
+    top: 240px;
+    left: 168px;
+    pointer-events: none; 
+    transform: rotate(90deg);
+}
+
+#elec6 {
+    position: absolute;
+    top: 240px;
+    left: 327px;
+    pointer-events: none; 
+    transform: rotate(90deg);
+}
+
+#elec7 {
+    position: absolute;
+    top: 285px;
+    left: -30px;
+    pointer-events: none; 
+}
+
+#elec8 {
+    position: absolute;
+    top: 125px;
+    right: 320px;
+    pointer-events: none; 
+    transform: rotate(90deg);
+}
+
+#cpu {
+    position: absolute;
+    top: 120px;
+    left: 310px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 130px;
+    padding: 12px;   
+}
+
+#usb1 {
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 130px;
+    padding: 24px 24px 24px 24px;
+}
+
+#usb2 {
+    position: absolute;
+    top: 254px;
+    right: 70px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 130px;
+    padding: 24px 24px 24px 24px;
+}
+
+#hdmi1 {
+    position: absolute;
+    top: 297px;
+    left: 312px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 60px;
+    padding: 18px 9px 18px 9px;   
+}
+
+#hdmi2 {
+    position: absolute;
+    top: 297px;
+    left: 472px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 60px;
+    padding: 18px 9px 18px 9px;    
+}
+
+#eport {
+    position: absolute;
+    top: 28px;
+    right: 70px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 160px;
+    padding: 35px 30px 35px 30px;
+}
+
+#audioJack {
+    position: absolute;
+    top: 270px;
+    right: 470px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 50px;
+    padding: 20px 12px 20px 12px;   
+}
+
+#micro {
+    position: absolute;
+    top: 313px;
+    left: 121px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6px;
+    background: #efefef;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 300px;
+    padding: 11px 25px 11px 25px;   
+}
+
+#elecEport {
+    opacity: 0;
+}
+
+#elecEport:hover {
+    opacity: 1;
+}
+
+#elecMicro {
+    opacity: 0;
+}
+
+#elecMicro:hover {
+    opacity: 1;
+}
+
+#elecHdmi {
+    opacity: 0;
+}
+
+#elecHdmi:hover {
+    opacity: 1;
+}
+
+#elecCpu {
+    opacity: 0;
+}
+
+#elecCpu:hover{
+    opacity: 1;
+}
+
+#elecUSB {
+    opacity: 0;
+}
+
+#elecUSB:hover {
+    opacity: 1;
+}
+
+#elecAudioJack {
+    opacity: 0;
+}
+
+#elecAudioJack:hover {
+    opacity: 1;
+}
+
+
+#Lorem-Ipsum {
+    word-spacing: 2px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
